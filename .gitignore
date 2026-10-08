@@ -1,0 +1,24 @@
+# Local runtimes and generated files
+.venv/
+.python_pkg/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+pytest-cache-files-*/
+.tmp/
+build/
+dist/
+release/
+_archive/
+backups/
+status_audit/
+experiments/**/output/
+
+# Local tools, settings and private documents
+/pandoc.exe
+ObsidianConverter.ini
+*.log
+.env
+.env.*
+!.env.example
+
